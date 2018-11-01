@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "removeComments": false
+  },
+  "include": [
+    "backend/**/*.ts",
+    "backend/*.ts",
+    "../plek-develop/react/src/common/index.d.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    ".idea",
+    "frontend"
+  ]
+}
