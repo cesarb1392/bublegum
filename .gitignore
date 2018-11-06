@@ -18,6 +18,9 @@
 
 # Project
 api/
+backend/**/*.js
+backend/*.js
+frontend.old/
 .idea/
 
 ### Node ###

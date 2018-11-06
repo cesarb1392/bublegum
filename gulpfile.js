@@ -19,6 +19,8 @@ gulp.task('compile:ts', () => {
         .pipe(tsProject());
     return tsResult.js.pipe(gulp.dest('api'));
 });
+
+
 //set up a watcher to watch over changes
 gulp.task('watch', ['compile:ts'], () => {
     gulp.watch('**/*.ts', ['compile:ts']);

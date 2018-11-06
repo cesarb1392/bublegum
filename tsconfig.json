@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
     "target": "es2017",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -8,8 +10,7 @@
   },
   "include": [
     "backend/**/*.ts",
-    "backend/*.ts",
-    "../plek-develop/react/src/common/index.d.ts"
+    "backend/*.ts"
   ],
   "exclude": [
     "./node_modules",
